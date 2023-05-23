@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a global font family */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header and navigation */
+  header {
+    background: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Style the portfolio section */
+  #portfolio {
+    background: #f2f2f2;
+  }
+  
+  .portfolio-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .portfolio-item p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  /* Style the contact section */
+  #contact {
+    background: #333;
+    color: #fff;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .contact-form input[type="submit"] {
+    background: #ffd700;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background: #ffc107;
+  }
+  
+  /* Style the footer */
+  footer {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
